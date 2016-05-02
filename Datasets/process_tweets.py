@@ -1,9 +1,12 @@
-# this code preproceses the file "Sarcastic tweets.txt"
+# this code preproceses the file "Sarcastic tweets.txt" and "Sar 1.txt"
 # tweets taken directly from tweeter manually.
 
 import tempfile
 import re,csv
-f = open("Sarcastic tweets.txt","r")
+
+# unfiltered files
+f1 = open("Sarcastic tweets.txt","r")
+f2 = open("Sar 1.txt","r")
 
 # regular expressions used for filtering
 pat1 = r'\d*\s+retweet[s]?'
@@ -24,7 +27,7 @@ pat14 = r'\s*[Ii]n\s*[Rr]eply\s*[Tt]o.*'
 
 new = tempfile.TemporaryFile()
 
-for line in f.readlines():
+for line in f1.readlines()+f2.readlines():
 	line = re.sub(pat1,'',line)
 	line = re.sub(pat2,'',line)
 	line = re.sub(pat3,'',line)
@@ -40,10 +43,12 @@ for line in f.readlines():
 		new.write('*\n')
 	else:
 		new.write(line)
-f.close()
+f1.close()
+f2.close()
+
+# go to start
 new.seek(0)
 
-##
 # writing to csv file
 csvfile = open('processed_tweets.csv','w')
 wr = csv.writer(csvfile)
