@@ -47,7 +47,7 @@ def check_sarc(tweet):
 
 if __name__ == "__main__":
 	# check sarcasm of the processed file, beware , this may take lot of time, you may use a smaller file
-	f = open("processed_tweets.csv","r")	
+	f = open("Datasets/processed_tweets.csv","r")	
 	rdr = csv.reader(f)
 	sarc_cnt = 0
 	cnt = 0
