@@ -1,5 +1,6 @@
 # Author   : Ramkrushna Pradhan
 # Date     : 2-May-2016
+# Purpose  : This program takes a tweet as input and returns if the tweet is sarcastic or not.
 # The tagger used for this task was taken from the following resources
 # Citation : Improved Part-of-Speech Tagging for Online Conversational Text with Word Clusters,
 #	     Olutobi Owoputi, Brendan O’Connor, Chris Dyer, Kevin Gimpel, Nathan Schneider and Noah A. Smith. 
