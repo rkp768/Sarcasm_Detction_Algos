@@ -1,3 +1,2 @@
-*.txt are unfiltered text files  
-*.csv are after pre processing  
-*.py  are script used for preprocessing  
+If you use any of the datasets, please cite the following paper :  
+Bharti, Santosh Kumar, Korra Sathya Babu, and Sanjay Kumar Jena. "Parsing-based Sarcasm Sentiment Recognition in Twitter Data."Proceedings of the 2015 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining 2015. ACM, 2015.
