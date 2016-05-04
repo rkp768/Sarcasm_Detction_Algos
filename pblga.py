@@ -1,3 +1,6 @@
+# Author   : Ramkrushna Pradhan
+# Date     : 4-May-2016
+# This code used textblob parsers and seniment analyzers. Feel free to modify them to fit your own purpose.
 import sys
 import csv
 import tempfile
