@@ -4,4 +4,4 @@ This repo contains the algorithms we have developed for detecting sarcasm in eng
 2. <b>pblga.py : </b>in this algorithm we detect the presence of sarcasm by checking the occurance of certain parse trees in the sentence  
 If you use any of the code, please cite the following paper :
 
-<em><strong>Bharti, Santosh Kumar, Korra Sathya Babu, and Sanjay Kumar Jena. "Parsing-based Sarcasm Sentiment Recognition in Twitter Data."Proceedings of the 2015 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining 2015. ACM, 2015.</em></strong>  
+<em><strong>Bharti, S. K., B. Vachha, R. K. Pradhan, K. S. Babu, and S. K. Jena. "Sarcastic sentiment detection in tweets streamed in real time: a big data approach." Digital Communications and Networks 2, no. 3 (2016): 108-121.</em></strong>  
