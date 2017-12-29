@@ -6,4 +6,6 @@ This repo contains the algorithms we have developed for detecting sarcasm in eng
 <br/>
 If you use any of the code, please cite the following paper :
 
-<em><strong>Bharti, S. K., B. Vachha, R. K. Pradhan, K. S. Babu, and S. K. Jena. "Sarcastic sentiment detection in tweets streamed in real time: a big data approach." Digital Communications and Networks 2, no. 3 (2016): 108-121.</em></strong>  
+<em><strong>Bharti, S. K., B. Vachha, R. K. Pradhan, K. S. Babu, and S. K. Jena. "Sarcastic sentiment detection in tweets streamed in real time: a big data approach." Digital Communications and Networks 2, no. 3 (2016): 108-121.</em></strong> 
+
+The code in this repository is licensed under the terms of [MIT License](http://opensource.org/licenses/MIT).
